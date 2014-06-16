@@ -1,10 +1,11 @@
 __author__ = 'sid'
 
-# Quick Find Algorithm Implementation
+# Quick Union Algorithm Implementation
 # 1. Initialize (N)
-# 2. Find (1)
+# 2. Find (N)
 # 3. Union (N)
-# Complexity : (N^2)
+
+#Cons: Trees get too Tall
 
 #Function to initialize the objects
 def union_intialize(n):
