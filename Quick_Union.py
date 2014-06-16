@@ -5,7 +5,7 @@ __author__ = 'sid'
 # 2. Find (N)
 # 3. Union (N)
 
-#Cons: Trees get too Tall
+# Cons: Trees get too Tall
 
 #Function to initialize the objects
 def union_intialize(n):
@@ -30,6 +30,7 @@ def find(p, q, id_list):
         return True
     else:
         return False
+
 
 #Assigns root as parent
 def union(id_list, p, q):
