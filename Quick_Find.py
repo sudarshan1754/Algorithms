@@ -75,14 +75,3 @@ for i in range(1000):
 
     if option == 4:
         exit(1)
-
-
-
-
-
-
-
-
-
-
-
