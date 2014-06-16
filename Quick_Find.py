@@ -1,6 +1,6 @@
 __author__ = 'sid'
 
-#Quick Find Algorithm Implementation
+# Quick Find Algorithm Implementation
 # 1. Initialize (N)
 # 2. Find (1)
 # 3. Union (N)
@@ -15,13 +15,14 @@ def union_intialize(n):
 
     return id_list
 
+
 #Find function to check if the objects are connected or not
 def find(p, q):
-
     if id_list[p] == id_list[q]:
         return True
     else:
         return False
+
 
 def union(id_list, p, q):
     pid = id_list[p]
@@ -30,6 +31,7 @@ def union(id_list, p, q):
     for i in range(len(id_list)):
         if id_list[i] == pid:
             id_list[i] = qid
+
 
 id_list = []
 n = input('Enter the number of elements: ')
