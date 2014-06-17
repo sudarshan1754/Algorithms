@@ -8,10 +8,10 @@ Algorithms:
 *****************************************
 1. Union Find
 
-    a. Quick Find
-    b. Quick Union
-    c. Quick Union Weighted
-    d. Quick Union Weighted with path Compression
+    (a). Quick Find
+    (b). Quick Union
+    (c). Quick Union Weighted
+    (d). Quick Union Weighted with path Compression
 
     Readme: Union_Find_Read.me
 
