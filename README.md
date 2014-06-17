@@ -7,6 +7,7 @@ Each Algorithm has a read.me file included
 Algorithms:
 *****************************************
 1. Union Find
+
     a. Quick Find
     b. Quick Union
     c. Quick Union Weighted
