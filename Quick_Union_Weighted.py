@@ -4,7 +4,7 @@ __author__ = 'sid'
 # 1. Initialize (N)
 # 2. Find (log N) Note: log base 2
 # 3. Union (log N) Note: log base 2
-
+# 4. Complexity: N + M log N
 # Pros: Trees that get too Tall are flattened
 
 #Function to initialize the objects
