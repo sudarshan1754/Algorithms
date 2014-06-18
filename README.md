@@ -17,3 +17,5 @@ Algorithms:
 
 2. 3-SUM
 
+3. Binary Search
+
