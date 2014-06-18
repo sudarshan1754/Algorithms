@@ -2,6 +2,7 @@ __author__ = 'sid'
 
 # 3-SUM Algorithm (Given N distinct integers, how many triples sum to exactly zero?)
 # Method: Brute Force
+# Complexity: (N ^ 3)
 """
 # Measure the time by using Log-Log plot (Theoretical):
     POWER LAW: (a * N ^ b) where a = 2 ^ c
