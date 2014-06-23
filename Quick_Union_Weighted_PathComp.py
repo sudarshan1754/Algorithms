@@ -55,49 +55,53 @@ def intialize_tree(n):
 
     return tree_size
 
-id_list = []
-n = input('Enter the number of elements: ')
-id_list = union_intialize(n)
+def main():
+    id_list = []
+    n = input('Enter the number of elements: ')
+    id_list = union_intialize(n)
 
-#to keep track of the tree size
-t_size = intialize_tree(n)
+    #to keep track of the tree size
+    t_size = intialize_tree(n)
 
-#User Input
-for i in range(1000):
-    print "\n\n"
-    print "1. To check if the objects are connected"
-    print "2. Connect the objects"
-    print "3. Print the lists"
-    print "4. Done"
-    print "\nEnter your option: "
-    option = input()
+    #User Input
+    for i in range(1000):
+        print "\n\n"
+        print "1. To check if the objects are connected"
+        print "2. Connect the objects"
+        print "3. Print the lists"
+        print "4. Done"
+        print "\nEnter your option: "
+        option = input()
 
-    if option == 1:
-        p = input("Enter the First Object(No.): ")
-        q = input("Enter the Second Object(No.): ")
+        if option == 1:
+            p = input("Enter the First Object(No.): ")
+            q = input("Enter the Second Object(No.): ")
 
-        Result = find(p, q, id_list)
+            Result = find(p, q, id_list)
 
-        #Spit out the result of the find connection
-        if Result is False:
-            print "\n**********Not Connected**********"
-        else:
-            print "\n**********Connected**********"
+            #Spit out the result of the find connection
+            if Result is False:
+                print "\n**********Not Connected**********"
+            else:
+                print "\n**********Connected**********"
 
-    if option == 2:
-        #Get the Elements for which the connection is to be found
-        p = input("Enter the First Object(No.): ")
-        q = input("Enter the Second Object(No.): ")
+        if option == 2:
+            #Get the Elements for which the connection is to be found
+            p = input("Enter the First Object(No.): ")
+            q = input("Enter the Second Object(No.): ")
 
-        union(id_list, p, q, t_size)
+            union(id_list, p, q, t_size)
 
-        print "\n**********Success**********"
+            print "\n**********Success**********"
 
-    if option == 3:
-        print "id_list:"
-        print id_list
-        print "t_size:"
-        print t_size
+        if option == 3:
+            print "id_list:"
+            print id_list
+            print "t_size:"
+            print t_size
 
-    if option == 4:
-        exit(1)
+        if option == 4:
+            exit(1)
+
+if __name__ == "__main__":
+    main()
