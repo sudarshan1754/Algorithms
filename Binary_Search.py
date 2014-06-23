@@ -20,24 +20,28 @@ def BinarySearch(Number_list, key):
     return -1
 
 
-print "Enter the Number of Elements: "
-n = input()
+def main():
+    print "Enter the Number of Elements: "
+    n = input()
 
-print "Enter the elements one after the other:"
-Number_list = []
-for i in range(n):
-    num = input()
-    Number_list.append(num)
+    print "Enter the elements one after the other:"
+    Number_list = []
+    for i in range(n):
+        num = input()
+        Number_list.append(num)
 
-# Sort the list in Ascending order, Note: This time isn't part of complexity mentioned above
-Number_list.sort()
+    # Sort the list in Ascending order, Note: This time isn't part of complexity mentioned above
+    Number_list.sort()
 
-print "Enter the Key to be searched: "
-key = input()
+    print "Enter the Key to be searched: "
+    key = input()
 
-index = BinarySearch(Number_list, key)
+    index = BinarySearch(Number_list, key)
 
-if index == -1:
-    print "Key not found"
-else:
-    print "Key found at index: " + str(index)
+    if index == -1:
+        print "Key not found"
+    else:
+        print "Key found at index: " + str(index)
+
+if __name__ == "__main__":
+    main()
