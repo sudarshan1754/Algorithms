@@ -23,12 +23,17 @@ def GetCount(Numbers_list):
     return Count
 
 
-print "Enter the No. of Numbers:"
-n = input()
-print "Get the Numbers:"
-Numbers_list = []
-for i in range(n):
-    num = input()
-    Numbers_list.append(num)
+def main():
+    print "Enter the No. of Numbers:"
+    n = input()
+    print "Get the Numbers:"
+    Numbers_list = []
+    for i in range(n):
+        num = input()
+        Numbers_list.append(num)
 
-print "Number of Sum's = 0 is : " + str(GetCount(Numbers_list))
+    print "Number of Sum's = 0 is : " + str(GetCount(Numbers_list))
+
+
+if __name__ == "__main__":
+    main()
