@@ -19,3 +19,5 @@ Algorithms:
 
 3. Binary Search
 
+4. Data Structures: Stacks using Arrays(python lists)
+
