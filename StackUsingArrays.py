@@ -1,7 +1,11 @@
 __author__ = 'sid'
 
 # Stack Implementation Using Arrays (strings)
-
+"""
+Notes:
+1. Can be implemented using Linked Lists
+2. Also using Resizing Array Implementation (repeated doubling and one quarter full)
+"""
 
 def push(stack):
     print "Enter the Item to be pushed: "
