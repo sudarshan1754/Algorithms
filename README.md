@@ -6,6 +6,7 @@ Each Algorithm has a read.me file included
 
 Algorithms:
 *****************************************
+
 1. Union Find
 
     (a). Quick Find
@@ -20,4 +21,8 @@ Algorithms:
 3. Binary Search
 
 4. Data Structures: Stacks using Arrays(python lists)
+
+5. Sorting:
+        
+     (a). Selection Sort
 
