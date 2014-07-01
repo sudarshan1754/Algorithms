@@ -3,6 +3,7 @@ __author__ = 'sid'
 # Selection Sort Algorithm Implementation
 # No. of compares = (N ^ 2)/2
 # No. of exchanges = N
+# Complexity: Quadratic (N ^ 2)
 
 
 # Function to compare (takes (N ^ 2)/2 compares)
