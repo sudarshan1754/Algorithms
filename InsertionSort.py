@@ -36,14 +36,14 @@ def GetItems():
     return arr
 
 
-# Function to perform selection sort
+# Function to perform Insertion sort
 def InsertionSort():
     arr = GetItems()
     print "\nOriginal Order"
     print arr
     print "\nAfter Applying Insertion Sort"
 
-    # Iterate over each i and get the index of the min item
+    # Iterate over each i
     for i in xrange(len(arr)):
         for j in xrange(i, 0, -1):
             if compare(arr[j], arr[j - 1]):

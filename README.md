@@ -1,7 +1,5 @@
 This folder contains python implementation of various algorithms.
 
-Each Algorithm has a read.me file included
-
 @Author: Sid
 
 Algorithms:
