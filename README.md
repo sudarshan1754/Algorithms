@@ -5,7 +5,6 @@ Each Algorithm has a read.me file included
 @Author: Sid
 
 Algorithms:
-*****************************************
 
 1. Union Find
 
@@ -25,4 +24,5 @@ Algorithms:
 5. Sorting:
         
      (a). Selection Sort
+     (b). Insertion Sort
 
