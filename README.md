@@ -23,4 +23,5 @@ Algorithms:
         
      (a). Selection Sort
      (b). Insertion Sort
+     (C). Shell Sort
 
